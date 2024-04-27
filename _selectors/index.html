@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS [class] Selector</title>
+		<style>
+			ul[class] {
+				list-style: none;
+			}
+
+			ul:not([class]) {
+				list-style-type: circle;
+				background-color: beige;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<p>This is paragraph 1</p>
+			</li>
+			<li>
+				<p>This is paragraph 2</p>
+			</li>
+			<li>
+				<p>This is paragraph 3</p>
+			</li>
+		</ul>
+
+		<ul class="list">
+			<li class="item">
+				<p>This is paragraph 1</p>
+			</li>
+			<li class="item">
+				<p>This is paragraph 1</p>
+			</li>
+			<li class="item">
+				<p>This is paragraph 1</p>
+			</li>
+		</ul>
+	</body>
+</html>
