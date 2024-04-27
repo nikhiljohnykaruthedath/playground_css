@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nav-links {
+	border: 4px solid firebrick;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.nav-links li {
+	border: 2px solid black;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 1;
+}
